@@ -1,0 +1,30 @@
+/* line 3, ../../sass/main/layout/_window.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 7, ../../sass/main/layout/_window.scss */
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+/* line 14, ../../sass/main/layout/_window.scss */
+.bodyWrapper {
+  min-height: 100%;
+  margin-bottom: -65px;
+}
+
+/* line 19, ../../sass/main/layout/_window.scss */
+.bodyContainer {
+  padding-bottom: 65px;
+  height: 100%;
+  padding-top: 70px;
+}
+
+/* line 25, ../../sass/main/layout/_window.scss */
+:focus {
+  outline: none;
+}

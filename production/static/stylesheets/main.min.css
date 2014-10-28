@@ -1,0 +1,9 @@
+/*
+ * standard-website - v1.0.0 - 2014-10-28
+ * 
+ *
+ * Copyright (c) 2014
+ Lingke Wang 
+*/
+
+body,html{height:100%}body{background-color:#fff;margin:0;padding:0;overflow:auto}.bodyWrapper{min-height:100%;margin-bottom:-65px}.bodyContainer{padding-bottom:65px;height:100%;padding-top:70px}:focus{outline:0}
