@@ -25,6 +25,12 @@ body {
 }
 
 /* line 25, ../../sass/main/layout/_window.scss */
+footer {
+  height: 50px;
+  margin-top: 15px;
+}
+
+/* line 31, ../../sass/main/layout/_window.scss */
 :focus {
   outline: none;
 }

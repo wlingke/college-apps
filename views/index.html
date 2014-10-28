@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="/static/favicon.ico" type="image/ico">
     <!-- build:css /static/stylesheets/vendor.min.css-->
     <link rel="stylesheet" href="/static/stylesheets/vendor.css" type="text/css">
@@ -9,6 +10,19 @@
     <!-- build:css /static/stylesheets/main.min.css-->
     <link rel="stylesheet" href="/static/stylesheets/main.css" type="text/css">
     <!-- /build -->
+
+    <!--[if lte IE 8]>
+    <script>window.ie8 = true;</script>
+    <script src="/static/ie/ie8/html5shiv.js"></script>
+    <script src="/static/ie/ie8/respond.min.js"></script>
+    <script src="/static/ie/ie8/json2.js"></script>
+
+    <![endif]-->
+
+    <!--[if lte IE 9]>
+    <script>window.ie8n9 = true;</script>
+    <script src="/static/ie/ie8n9/es5-shim.min.js"></script>
+    <![endif]-->
 
 </head>
 <body>
@@ -20,10 +34,13 @@
 
 <div class="bodyWrapper">
     <div class="bodyContainer">
-        <div id="test"></div>
-        <button type="button" class="btn btn-default">Hello</button>
+
+
     </div>
 </div>
+<footer>
+    Here is a footer
+</footer>
 
 <!-- build:js /static/js/aggregate.min.js -->
 <script src="/static/js/vendor/jquery-1.11.1.js"></script>

@@ -38,7 +38,7 @@ module.exports = function (grunt) {
             assets: {
                 expand: true,
                 cwd: '<%= DEV_DIR %>/',
-                src: ['fonts'],
+                src: ['fonts', 'ie'],
                 dest: '<%= PROD_DIR %>/'
             }
         },

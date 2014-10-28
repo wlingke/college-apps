@@ -1,4 +1,4 @@
-//Creates sticky footer
+//Generates semi-sticky footer
 
 html, body {
   height: 100%
@@ -21,6 +21,12 @@ body {
   height: 100%;
   padding-top: $navbar-height + $navbar-margin;
 }
+
+footer {
+  height: $footer-height;
+  margin-top: $footer-margin;
+}
+
 
 :focus {
   outline: none;
