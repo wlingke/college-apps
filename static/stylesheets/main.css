@@ -14,23 +14,74 @@ body {
 /* line 14, ../../sass/main/layout/_window.scss */
 .bodyWrapper {
   min-height: 100%;
-  margin-bottom: -65px;
+  margin-bottom: -66px;
 }
 
 /* line 19, ../../sass/main/layout/_window.scss */
 .bodyContainer {
   padding-bottom: 65px;
   height: 100%;
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 /* line 25, ../../sass/main/layout/_window.scss */
 footer {
   height: 50px;
   margin-top: 15px;
+  margin-bottom: 0 !important;
 }
 
-/* line 31, ../../sass/main/layout/_window.scss */
+/* line 32, ../../sass/main/layout/_window.scss */
 :focus {
   outline: none;
+}
+
+/* line 4, ../../sass/main/utilities/_clear.scss */
+.clear-pad {
+  padding: 0 !important;
+}
+
+/* line 8, ../../sass/main/utilities/_clear.scss */
+.clear-mar {
+  margin: 0 !important;
+}
+
+/* line 4, ../../sass/main/utilities/_clear.scss */
+.clear-pad-left {
+  padding-left: 0 !important;
+}
+
+/* line 8, ../../sass/main/utilities/_clear.scss */
+.clear-mar-left {
+  margin-left: 0 !important;
+}
+
+/* line 4, ../../sass/main/utilities/_clear.scss */
+.clear-pad-right {
+  padding-right: 0 !important;
+}
+
+/* line 8, ../../sass/main/utilities/_clear.scss */
+.clear-mar-right {
+  margin-right: 0 !important;
+}
+
+/* line 4, ../../sass/main/utilities/_clear.scss */
+.clear-pad-top {
+  padding-top: 0 !important;
+}
+
+/* line 8, ../../sass/main/utilities/_clear.scss */
+.clear-mar-top {
+  margin-top: 0 !important;
+}
+
+/* line 4, ../../sass/main/utilities/_clear.scss */
+.clear-pad-bottom {
+  padding-bottom: 0 !important;
+}
+
+/* line 8, ../../sass/main/utilities/_clear.scss */
+.clear-mar-bottom {
+  margin-bottom: 0 !important;
 }

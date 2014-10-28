@@ -13,7 +13,7 @@ body {
 
 .bodyWrapper {
   min-height: 100%;
-  margin-bottom: -$footer-height - $footer-margin;
+  margin-bottom: -$footer-height - $footer-margin - 1px;
 }
 
 .bodyContainer {
@@ -25,6 +25,7 @@ body {
 footer {
   height: $footer-height;
   margin-top: $footer-margin;
+  margin-bottom: 0 !important;
 }
 
 

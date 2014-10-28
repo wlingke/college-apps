@@ -1,0 +1,15 @@
+$direction: null "-left" "-right" "-top" "-bottom";
+@mixin clear-spacing($dir) {
+
+  .clear-pad#{$dir} {
+    padding#{$dir}: 0 !important;
+  }
+
+  .clear-mar#{$dir} {
+    margin#{$dir}: 0 !important;
+  }
+}
+
+@each $dir in $direction {
+  @include clear-spacing($dir);
+}
