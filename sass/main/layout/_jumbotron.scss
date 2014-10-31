@@ -1,0 +1,27 @@
+.jumbotron-main {
+  color: white;
+
+  @include mq(desktop){
+    height: 450px
+  }
+
+  @include mq(large-desktop){
+    height: 500px
+  }
+}
+
+.jumbo-bg-1 {
+  background-image: url("../images/jumbotron1.jpg");
+}
+
+.jumbo-bg-2 {
+  background-image: url("../images/jumbotron2.jpg");
+}
+
+.jumbo-bg-3 {
+  background-image: url("../images/jumbotron3.jpg");
+}
+
+.jumbo-bg-cover{
+  background-size: cover;
+}

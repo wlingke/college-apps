@@ -1,0 +1,22 @@
+.section {
+  padding: 40px 0;
+  @include mq(desktop){
+    padding: 60px 0;
+  }
+}
+
+.section-inverse {
+  color: white
+}
+
+.section-header {
+  margin-top: 0;
+  margin-bottom: 40px;
+  @include mq(destkop){
+    margin-bottom: 60px;
+  }
+}
+
+.feature-item {
+  margin-bottom: 25px;
+}

@@ -36,6 +36,158 @@ footer {
   outline: none;
 }
 
+/* line 1, ../../sass/main/layout/_jumbotron.scss */
+.jumbotron-main {
+  color: white;
+}
+@media (min-width: 992px) {
+  /* line 1, ../../sass/main/layout/_jumbotron.scss */
+  .jumbotron-main {
+    height: 450px;
+  }
+}
+
+/* line 13, ../../sass/main/layout/_jumbotron.scss */
+.jumbo-bg-1 {
+  background-image: url("../images/jumbotron1.jpg");
+}
+
+/* line 17, ../../sass/main/layout/_jumbotron.scss */
+.jumbo-bg-2 {
+  background-image: url("../images/jumbotron2.jpg");
+}
+
+/* line 21, ../../sass/main/layout/_jumbotron.scss */
+.jumbo-bg-3 {
+  background-image: url("../images/jumbotron3.jpg");
+}
+
+/* line 25, ../../sass/main/layout/_jumbotron.scss */
+.jumbo-bg-cover {
+  background-size: cover;
+}
+
+/* line 1, ../../sass/main/layout/_section.scss */
+.section {
+  padding: 40px 0;
+}
+@media (min-width: 992px) {
+  /* line 1, ../../sass/main/layout/_section.scss */
+  .section {
+    padding: 60px 0;
+  }
+}
+
+/* line 8, ../../sass/main/layout/_section.scss */
+.section-inverse {
+  color: white;
+}
+
+/* line 12, ../../sass/main/layout/_section.scss */
+.section-header {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+/* line 20, ../../sass/main/layout/_section.scss */
+.feature-item {
+  margin-bottom: 25px;
+}
+
+/* line 1, ../../sass/main/layout/_image.scss */
+.avatar-md {
+  height: 150px;
+  width: 150px;
+}
+
+/* line 6, ../../sass/main/layout/_image.scss */
+.avatar-full {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 1, ../../sass/main/layout/_typography.scss */
+.font-lg {
+  font-size: 1.1em;
+}
+
+/* line 6, ../../sass/main/layout/_typography.scss */
+.list-expanded > li {
+  margin-bottom: 10px;
+}
+
+/* line 4, ../../sass/main/layout/_buttons.scss */
+.btn-linkedin {
+  color: white;
+  background-color: #4875b4;
+  border-color: #4169a2;
+}
+/* line 17, ../../sass/main/layout/_buttons.scss */
+.btn-linkedin:hover, .btn-linkedin:focus, .btn-linkedin:active, .btn-linkedin.active {
+  color: white;
+  background-color: #3c6297;
+  border-color: #2f4d76;
+}
+/* line 30, ../../sass/main/layout/_buttons.scss */
+.btn-linkedin.disabled, .btn-linkedin.disabled:hover, .btn-linkedin.disabled:focus, .btn-linkedin.disabled:active, .btn-linkedin.disabled.active, .btn-linkedin[disabled], .btn-linkedin[disabled]:hover, .btn-linkedin[disabled]:focus, .btn-linkedin[disabled]:active, .btn-linkedin[disabled].active, fieldset[disabled] .btn-linkedin, fieldset[disabled] .btn-linkedin:hover, fieldset[disabled] .btn-linkedin:focus, fieldset[disabled] .btn-linkedin:active, fieldset[disabled] .btn-linkedin.active {
+  background-color: #4875b4;
+  border-color: #4169a2;
+}
+
+/* line 4, ../../sass/main/layout/_buttons.scss */
+.btn-facebook {
+  color: white;
+  background-color: #3b5998;
+  border-color: #344e86;
+}
+/* line 17, ../../sass/main/layout/_buttons.scss */
+.btn-facebook:hover, .btn-facebook:focus, .btn-facebook:active, .btn-facebook.active {
+  color: white;
+  background-color: #30487b;
+  border-color: #23345a;
+}
+/* line 30, ../../sass/main/layout/_buttons.scss */
+.btn-facebook.disabled, .btn-facebook.disabled:hover, .btn-facebook.disabled:focus, .btn-facebook.disabled:active, .btn-facebook.disabled.active, .btn-facebook[disabled], .btn-facebook[disabled]:hover, .btn-facebook[disabled]:focus, .btn-facebook[disabled]:active, .btn-facebook[disabled].active, fieldset[disabled] .btn-facebook, fieldset[disabled] .btn-facebook:hover, fieldset[disabled] .btn-facebook:focus, fieldset[disabled] .btn-facebook:active, fieldset[disabled] .btn-facebook.active {
+  background-color: #3b5998;
+  border-color: #344e86;
+}
+
+/* line 4, ../../sass/main/layout/_buttons.scss */
+.btn-google {
+  color: white;
+  background-color: #c63d2d;
+  border-color: #b13728;
+}
+/* line 17, ../../sass/main/layout/_buttons.scss */
+.btn-google:hover, .btn-google:focus, .btn-google:active, .btn-google.active {
+  color: white;
+  background-color: #a53325;
+  border-color: #7f271d;
+}
+/* line 30, ../../sass/main/layout/_buttons.scss */
+.btn-google.disabled, .btn-google.disabled:hover, .btn-google.disabled:focus, .btn-google.disabled:active, .btn-google.disabled.active, .btn-google[disabled], .btn-google[disabled]:hover, .btn-google[disabled]:focus, .btn-google[disabled]:active, .btn-google[disabled].active, fieldset[disabled] .btn-google, fieldset[disabled] .btn-google:hover, fieldset[disabled] .btn-google:focus, fieldset[disabled] .btn-google:active, fieldset[disabled] .btn-google.active {
+  background-color: #c63d2d;
+  border-color: #b13728;
+}
+
+/* line 4, ../../sass/main/layout/_buttons.scss */
+.btn-twitter {
+  color: white;
+  background-color: #00aced;
+  border-color: #0099d3;
+}
+/* line 17, ../../sass/main/layout/_buttons.scss */
+.btn-twitter:hover, .btn-twitter:focus, .btn-twitter:active, .btn-twitter.active {
+  color: white;
+  background-color: #008ec4;
+  border-color: #006d96;
+}
+/* line 30, ../../sass/main/layout/_buttons.scss */
+.btn-twitter.disabled, .btn-twitter.disabled:hover, .btn-twitter.disabled:focus, .btn-twitter.disabled:active, .btn-twitter.disabled.active, .btn-twitter[disabled], .btn-twitter[disabled]:hover, .btn-twitter[disabled]:focus, .btn-twitter[disabled]:active, .btn-twitter[disabled].active, fieldset[disabled] .btn-twitter, fieldset[disabled] .btn-twitter:hover, fieldset[disabled] .btn-twitter:focus, fieldset[disabled] .btn-twitter:active, fieldset[disabled] .btn-twitter.active {
+  background-color: #00aced;
+  border-color: #0099d3;
+}
+
 /* line 4, ../../sass/main/utilities/_clear.scss */
 .clear-pad {
   padding: 0 !important;
