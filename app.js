@@ -19,7 +19,7 @@ app.set('view engine', 'html');
 app.use(bodyParser.urlencoded());
 
 //Delivers static content depending on environment
-//require('routers/static_router')(app);
+require('routers/static_router')(app);
 
 // Logging
 if (app.get('env') !== 'production') {
