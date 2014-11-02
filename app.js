@@ -8,7 +8,7 @@ var app = express();
 
 //Standard configurations and middleware
 app.engine('html', require('ejs').renderFile);
-app.set('port', 5000); //heroku requires port 5000
+app.set('port', process.env.PORT || 3000);
 //
 if (app.get('env') !== 'production') {
     app.set('views', 'views');
